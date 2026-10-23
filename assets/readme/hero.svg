@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="t d">
+  <title id="t">Skills y Scripts varios</title>
+  <desc id="d">Banner con el nombre del repositorio y un arbol de carpetas: skills con cuatro SKILL.md y Scripts Powershell con Seguridad USB.</desc>
+  <style>
+    :root{--bg:#f6f8fa;--card:#ffffff;--line:#d0d7de;--text:#1f2328;--mut:#59636e;--pri:#0969da;--acc:#bc4c00;--ps:#1a7f37}
+    @media (prefers-color-scheme: dark){:root{--bg:#0d1117;--card:#161b22;--line:#30363d;--text:#e6edf3;--mut:#9198a1;--pri:#58a6ff;--acc:#ffa657;--ps:#3fb950}}
+    .bg{fill:var(--bg)} .card{fill:var(--card);stroke:var(--line);stroke-width:2}
+    .sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
+    .h1{font-size:60px;font-weight:700;fill:var(--text)}
+    .sub{font-size:24px;fill:var(--mut)}
+    .tag{font-size:20px;font-weight:600}
+    .t{font-size:22px;fill:var(--text)} .m{font-size:22px;fill:var(--mut)}
+    .pri{fill:var(--pri)} .acc{fill:var(--acc)} .ps{fill:var(--ps)}
+    .cur{animation:b 1.2s steps(2,start) infinite} @keyframes b{to{visibility:hidden}}
+  </style>
+  <rect class="bg" width="1200" height="380" rx="20"/>
+  <g class="sans">
+    <text class="h1" x="60" y="150">Skills y</text>
+    <text class="h1" x="60" y="220">Scripts varios</text>
+    <text class="sub" x="60" y="275">Skills para Claude Code y scripts</text>
+    <text class="sub" x="60" y="308">de PowerShell, listos para usar.</text>
+    <text class="tag pri" x="60" y="352">SKILL.md</text>
+    <text class="tag m" x="168" y="352" style="fill:var(--mut)">+</text>
+    <text class="tag ps" x="196" y="352">.ps1</text>
+  </g>
+  <rect class="card" x="640" y="40" width="500" height="300" rx="14"/>
+  <circle cx="670" cy="70" r="7" fill="#ff5f56"/><circle cx="694" cy="70" r="7" fill="#ffbd2e"/><circle cx="718" cy="70" r="7" fill="#27c93f"/>
+  <g class="mono">
+    <text class="t" x="672" y="124"><tspan class="acc">&gt;</tspan> tree</text>
+    <text class="t" x="672" y="160">skills/</text>
+    <text class="m" x="700" y="192">code-simplification</text>
+    <text class="m" x="700" y="222">readme-github-atractivo</text>
+    <text class="m" x="700" y="252">spec-funcional-sdd</text>
+    <text class="m" x="700" y="282">verificar-seguridad-repo</text>
+    <text class="t" x="672" y="318"><tspan class="ps">Scripts Powershell/</tspan><tspan class="acc cur"> _</tspan></text>
+  </g>
+</svg>

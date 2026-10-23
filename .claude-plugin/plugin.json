@@ -1,0 +1,5 @@
+{
+  "name": "skills-y-scripts-varios",
+  "description": "Coleccion de skills para Claude Code: simplificacion de codigo, README de GitHub, especificacion funcional SDD y auditoria de seguridad de repositorios.",
+  "skills": "./skills"
+}
